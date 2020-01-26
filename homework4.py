@@ -26,4 +26,14 @@ print("second largest number",l1[-2])
 
 #Question 5:Write a python program to print list is empty or not.
 
-
+def great(list1):
+    if len(list1)==0:
+        return 0
+    else:
+        return 1
+# list1=[]
+list1=[1,3,5,7,7]
+if great(list1):
+    print("not empty")
+else:
+    print("empty")
